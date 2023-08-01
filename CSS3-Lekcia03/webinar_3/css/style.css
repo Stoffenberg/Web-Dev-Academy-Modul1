@@ -1,0 +1,72 @@
+body {
+	background-color: gray;
+	--farebny: orange;
+	--ciernobiely: gray;
+	--farba_font: #fff;
+}
+h1 {
+	background-color: rgba(0, 0, 0, 0.43); /* a: 0-1 */
+	margin-top: 60px;
+	padding: 15px; /* pre vsetky 4 strany */
+	padding: 5px 45px; /* z hora a z dola,  zlava a z prava */
+	padding: 5px 20px 40px; /* z hora,  z lava a z prava, z dola */
+	padding: 5px 15px 25px 35px; /* z hora, z prava, z dola, z lava */
+	text-align: center;
+}
+
+p {
+	text-align: justify;
+	opacity: 0.85; /* 0-1 */
+}
+
+p strong {
+	background-color: yellow;
+}
+
+h2 {
+	color: rgb(50, 215, 50); /* 0-255 */
+}
+
+h2, h2 a {
+	color: hsl(50, 100%, 20%); /* Hue-saturation-lightness – odtieň (0-360°) + sýtosť (0-100%) + svetlosť (0-100%)  */
+	color: hsla(0, 100%, 50%, 0.33);
+	color: #4025c4; /* 0-9 a-f */
+}
+
+#onas {
+	text-align: center;
+}
+
+.gombik {
+	padding: 16px 30px;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 30px;
+}
+.gombik1 {
+	background-color: orange;
+}
+.gombik2 {
+	border: orange 3px solid;
+}
+
+
+
+/*
+
+https://www.w3schools.com/css/css3_variables.asp
+
+a, strong, img - inline element
+
+h1-h6, p ul, ol, li - blokove elementy
+
+https://www.w3schools.com/tags/ref_colornames.asp
+
+selektor (element ktory si vyberam) a deklaracia (cele css tvrdenie)
+
+https://vzor.webstranky.org/
+
+https://www.w3schools.com/cssref/pr_text_text-align.php
+
+ */
